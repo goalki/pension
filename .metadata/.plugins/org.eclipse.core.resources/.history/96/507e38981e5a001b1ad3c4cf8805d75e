@@ -1,0 +1,66 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  $(function()
+  {
+	   var test=$(".menu");
+	   $(".menu").mouseover(function()
+	   {
+		   $(this).css("color","red");
+		   var n=test.index(this);
+		   $(".price").eq(n).css("color","red");
+	   });
+	   $(".menu").mouseout(function()
+	   {
+		   $(this).css("color","black");
+		   var n=test.index(this);
+		   $(".price").eq(n).css("color","black");
+	   });
+  });
+</script>
+</head>
+<body>
+  <!--  -->
+ <table> 
+ <tr>
+  <td>
+   <ul>  <!-- $(this).index() =>   -->
+    <li class="menu"> 짜장면 </li>
+    <li class="menu"> 짬 뽕 </li>
+    <li class="menu"> 탕수육 </li>
+    <li class="menu"> 팔보채 </li>
+    <div></div>
+    <li class="menu"> 양장피 </li>
+    <li class="menu"> 우 동 </li>
+   </ul>
+  </td>
+  <td>
+   <ul>  <!-- 속성이나 스타일속성변경 대상 -->
+    <li class="price"> 5,000원 </li>
+    <li class="price"> 7,000원 </li>
+    <li class="price"> 15,000원 </li>
+    <li class="price"> 20,000원 </li>
+    <li class="price"> 22,000원 </li>
+    <li class="price"> 6,000원 </li>
+   </ul>
+  </td>
+ </tr>
+ </table> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

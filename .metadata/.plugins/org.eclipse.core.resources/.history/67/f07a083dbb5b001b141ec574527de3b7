@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ include file="../top.jsp" %>  
+<%@page import="pension.dto.TourDto" %>  
+<%@page import="pension.dao.Dao" %> 
+<%@page import="pension.dto.BoardDto" %>
+<%@page import="pension.dao.BoardDao" %>
+<%@page import="java.util.ArrayList" %>  
+  <style>
+  #third {     /* 큰 사진 3층 */
+      width:1100px;
+      height:400px;
+      margin:auto;
+    } 
+    #fourth {    /* 아무거나 4층 */
+      width:1100px;
+      height:300px;
+      margin:auto;
+    }
+  </style>
+  <div id="third">
+     <img src="../1.jpg" width="1100" height="400">
+  </div>
+  <div id="fourth">
+    <div id="left">
+      
+    </div>
+    <div id="right">
+    
+    </div>
+  </div>
+ <%@ include file="../bottom.jsp" %> 

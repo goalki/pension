@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@page import="com.oreilly.servlet.MultipartRequest" %>    
+<%@page import="com.oreilly.servlet.multipart.DefaultFileRenamePolicy" %>
+<%@page import="java.io.*" %>  
+      
+<%
+     // cos.jar 라이브러리를 통해 파일을 업로드시킨다..
+     String path=request.getRealPath("tour/img");
+     out.print(path);
+     int size=1024*1024*10; 
+     String han="utf-8";
+     MultipartRequest multi=new MultipartRequest(request,path,size,han,new DefaultFileRenamePolicy());
+     
+     // 폼에 입력된 값을 읽어와서 DB에 저장
+     String title=multi.getParameter("title");
+     String name=multi.getParameter("name");
+     String content=multi.getParameter("content");
+     String fname=multi.getFilesystemName("fname");  // 서버에 저장되는 이름
+   
+     
+     response.sendRedirect("list.jsp");
+    
+     
+%> 

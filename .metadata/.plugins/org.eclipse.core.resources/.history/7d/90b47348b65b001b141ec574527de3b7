@@ -1,0 +1,41 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@page import="pension.dao.BoardDao" %> 
+<%@page import="java.sql.*" %>  
+<%@page import="pension.dto.BoardDto" %>
+<%  // write_ok.jsp
+
+  // DB연결
+     BoardDao bd=new BoardDao();
+         
+  // request값
+     request.setCharacterEncoding("utf-8");
+  
+     // BoardDto bdto
+ %>
+  <jsp:useBean id="bdto" class="pkc.dto.BoardDto">
+    <jsp:setProperty name="bdto" property="*" />  <!-- 폼태그의 name과  Dto의 필드명은 일치해야 된다. -->
+    <jsp:setProperty name="bdto" property="name" value="하하하"/>
+  </jsp:useBean>
+  
+ <%
+  // 메소드에 전달(insert)
+     db.insert(bdto);
+  // 이동
+     response.sendRedirect("list.jsp");
+
+%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

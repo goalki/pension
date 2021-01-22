@@ -1,0 +1,64 @@
+
+12월 30, 2020 14:25:15.24 NEW SESSION
+12월 30, 2020 14:25:15.24 [1230/142515.238:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+12월 30, 2020 15:28:09.25 [1230/152809.257:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+12월 30, 2020 15:44:21.87 [1230/154421.876:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+12월 30, 2020 15:50:11.97 [8948:3288:1230/155011.975:ERROR:device_event_log_impl.cc(211)] [15:50:11.975] USB: usb_service_win.cc:258 Failed to get device driver name: ��Ұ� �����ϴ�. (0x490)
+12월 30, 2020 15:50:11.98 [8948:3288:1230/155011.979:ERROR:device_event_log_impl.cc(211)] [15:50:11.980] USB: usb_service_win.cc:281 SetupDiEnumDeviceInterfaces: ��� ������ �����Ͱ� �����ϴ�. (0x103)
+
+12월 31, 2020 14:02:53.12 NEW SESSION
+12월 31, 2020 14:02:53.13 [1231/140253.099:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+12월 31, 2020 14:35:48.87 [1231/143548.870:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+
+1월 05, 2021 14:04:11.74 NEW SESSION
+1월 05, 2021 14:04:11.74 [0105/140411.737:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+1월 05, 2021 17:14:54.55 [0105/171454.549:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+
+1월 06, 2021 13:39:59.02 NEW SESSION
+1월 06, 2021 13:39:59.03 [0106/133959.027:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+1월 06, 2021 14:19:02.34 [0106/141902.345:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+
+1월 07, 2021 13:17:59.46 NEW SESSION
+1월 07, 2021 13:17:59.46 [0107/131759.463:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+1월 07, 2021 14:02:37.80 [0107/140237.799:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+1월 07, 2021 15:08:47.57 [0107/150847.576:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+1월 07, 2021 15:38:01.37 [0107/153801.369:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+
+1월 08, 2021 16:28:28.37 NEW SESSION
+1월 08, 2021 16:28:28.37 [0108/162828.359:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+
+1월 11, 2021 14:04:27.85 NEW SESSION
+1월 11, 2021 14:04:27.85 [0111/140427.847:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+
+1월 12, 2021 14:01:32.97 NEW SESSION
+1월 12, 2021 14:01:32.97 [0112/140132.966:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+1월 12, 2021 17:02:25.66 [0112/170225.663:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+
+1월 14, 2021 14:05:29.39 NEW SESSION
+1월 14, 2021 14:05:29.39 [0114/140529.371:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+
+1월 15, 2021 13:52:53.02 NEW SESSION
+1월 15, 2021 13:52:53.02 [0115/135253.021:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+1월 15, 2021 16:40:50.80 [0115/164050.799:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+
+1월 18, 2021 14:08:55.17 NEW SESSION
+1월 18, 2021 14:08:55.17 [0118/140855.168:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+1월 18, 2021 16:36:08.21 [0118/163608.212:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+
+1월 19, 2021 14:11:03.45 NEW SESSION
+1월 19, 2021 14:11:03.45 [0119/141103.426:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+
+1월 19, 2021 15:41:32.70 NEW SESSION
+1월 19, 2021 15:41:32.70 [0119/154132.681:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+
+1월 19, 2021 16:27:49.05 NEW SESSION
+1월 19, 2021 16:27:49.05 [0119/162749.049:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+1월 19, 2021 16:46:14.06 [0119/164614.066:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+
+1월 20, 2021 14:08:57.65 NEW SESSION
+1월 20, 2021 14:08:57.65 [0120/140857.651:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+
+1월 21, 2021 14:06:01.30 NEW SESSION
+1월 21, 2021 14:06:01.30 [0121/140601.304:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+1월 21, 2021 14:32:38.47 [0121/143238.471:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)
+1월 21, 2021 17:24:29.82 [0121/172429.823:ERROR:directory_reader_win.cc(43)] FindFirstFile: ������ ��θ� ã�� �� �����ϴ�. (0x3)

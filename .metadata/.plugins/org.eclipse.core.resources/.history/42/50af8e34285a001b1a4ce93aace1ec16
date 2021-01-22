@@ -1,0 +1,57 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@page import="java.sql.*" %>     
+<%@page import="pension.dto.TourDto" %>  
+<%@page import="pension.dao.Dao" %> 
+<%@page import="java.util.ArrayList" %>
+<%
+   Dao dao=new Dao();
+   ArrayList<TourDto> list=new ArrayList<TourDto>();
+   pageContext.setAttribute("list", list);
+%>    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+  <style>
+    a {
+      text-decoration:none;
+      color:black;
+    }
+    a:hover {
+      text-decoration:underline;
+    }
+  </style>
+</head>
+<body>
+   <!-- 레코드 내용 출력 -->
+   <table width="600" align="center">
+     <tr>
+       <td> 이름 </td>
+       <td> 제목 </td>
+       <td> 사진 </td>
+       <td> 작성일 </td>
+     </tr>
+    <c:forEach var="tdto" items="${list}">
+     <tr>
+       <td> <%=rs.getString("name")%> </td>
+       <td> <a href="content.jsp?id=<%=rs.getInt("id")%>"> <%=rs.getString("title")%> </a> </td>
+       <td> <img src="img/<%=rs.getString("fname")%>" width="50"> </td>
+       <td> <%=rs.getString("writeday")%>  </td>
+     </tr>
+     </c:forEach>
+     <tr height="50">
+      <td colspan="3" align="center"> <a href="write.jsp"> 글쓰기 </a> </td>
+     </tr>
+   </table>
+</body>
+</html>
+
+
+
+
+
+
+
+
